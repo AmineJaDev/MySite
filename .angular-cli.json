@@ -21,7 +21,9 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "../node_modules/font-awesome/css/font-awesome.min.css",
-        "styles.css"
+        "styles.css",
+        "../node_modules/magic-check/css/magic-check.css",
+        "../node_modules/magic-input/dist/magic-input.min.css"
       ],
       "scripts": [
 

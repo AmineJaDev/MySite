@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { DashbordComponent } from './dashbord/dashbord.component';
 import {AppRoutingModule} from './app-routing.module';
+import { MailComponent } from './contact/mail/mail.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {AppRoutingModule} from './app-routing.module';
     HeaderComponent,
     AboutComponent,
     ContactComponent,
-    DashbordComponent
+    DashbordComponent,
+    MailComponent
   ],
   imports: [
     BrowserModule,
