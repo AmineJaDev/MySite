@@ -9,12 +9,13 @@
 .radio .cr {
   position: relative;
   display: inline-block;
-  border: 1px solid #a9a9a9;
-  border-radius: .25em;
+  border: 2px solid #ffffff;
+  border-radius: 3.25em;
   width: 1.3em;
   height: 1.3em;
   float: left;
   margin-right: .5em;
+  background-color: #eceff3 !important;
 }
 
 .radio .cr {
@@ -55,4 +56,38 @@
 .checkbox label input[type="checkbox"]:checked + disabled + .cr,
 .radio label input[type="radio"]:disabled + .cr {
   opacity: .5;
+}
+span + span:before{
+  margin-left: 10px;
+  color: slategrey;
+  font-size: 18px;
+  font-family: monospace;
+}
+.inputolor{
+  color: green;
+  background-color: green;
+}
+.textStyle{
+  font-family: serif;
+  font-size: 29px !important;
+  color: #5f4da6;
+}
+.outils{
+  margin-left: 16px;
+  font-family: initial;
+  font-size: 16px;
+  color: #8d959d;
+}
+.glyphicon {
+  color: #a6d5a1 !important;
+}
+.dev{
+  font-family: initial;
+  font-size: 19px;
+  color: #3e164a;
+}
+.soc{
+  font-size: 17px;
+  font-family: cursive;
+  color: #2e78b8;
 }
